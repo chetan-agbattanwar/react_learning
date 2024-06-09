@@ -2,13 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import MyLoader from './Components/loader/MyLoader'
+import BgChanger from './Components/background-color-changer/BgChanger'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <MyLoader/>
+    <BgChanger/>
   )
 }
 
