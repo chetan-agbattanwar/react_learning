@@ -1,0 +1,18 @@
+.my-loader{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 8px solid black;
+    border-radius: 50%;
+    border-color: blue yellow yellow yellow ;
+    animation: loader-animation 2s linear infinite;
+}
+
+@keyframes loader-animation{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
