@@ -1,10 +1,10 @@
 import './App.css'
-import Counter2 from './Components/Hooks/UseStateHook/Counter2'
+import Toggle from './Components/Hooks/UseStateHook/Toggle'
 
 function App() {
 
   return (
-    <Counter2/>
+    <Toggle/>
   )
 }
 
