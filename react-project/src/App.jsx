@@ -1,12 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import Day1 from './Components/Day1'
+import Counter from './Components/Hooks/UseStateHook/Counter'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <Day1/>
+    <Counter/>
   )
 }
 
