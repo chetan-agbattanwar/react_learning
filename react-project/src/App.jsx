@@ -1,10 +1,10 @@
 import './App.css'
-import Counter from './Components/Hooks/UseStateHook/Counter'
+import Counter2 from './Components/Hooks/UseStateHook/Counter2'
 
 function App() {
 
   return (
-    <Counter/>
+    <Counter2/>
   )
 }
 
