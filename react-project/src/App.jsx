@@ -1,10 +1,14 @@
 import './App.css'
-import Toggle from './Components/Hooks/useEffect/Toggle'
+import Count from './Components/web storage/Count'
+import WebStorage from './Components/web storage/WebStorage'
 
 function App() {
 
   return (
-    <Toggle/>
+    <>
+    {/* <WebStorage/> */}
+    <Count/>
+    </>
   )
 }
 
