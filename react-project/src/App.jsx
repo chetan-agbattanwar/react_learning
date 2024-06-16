@@ -1,13 +1,19 @@
 import './App.css'
-import Count from './Components/web storage/Count'
-import WebStorage from './Components/web storage/WebStorage'
+import ParentComponent from './Components/ContextAPI/PropDrilling/ParentComponent'
+import ParentComponent1 from './Components/ContextAPI/PropDrilling/ParentComponent1'
+
 
 function App() {
 
   return (
     <>
-    {/* <WebStorage/> */}
-    <Count/>
+    {/* <ParentComponent name='chetan' age={27} />
+    <ParentComponent name='chetan' />
+    <ParentComponent age={30} /> */}
+
+    <ParentComponent1 name='chetan' age={27} />
+    <ParentComponent1 name='chetan' />
+    <ParentComponent1 age={30} />
     </>
   )
 }
