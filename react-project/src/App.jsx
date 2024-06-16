@@ -1,19 +1,20 @@
+import { createContext } from 'react'
 import './App.css'
-import ParentComponent from './Components/ContextAPI/PropDrilling/ParentComponent'
-import ParentComponent1 from './Components/ContextAPI/PropDrilling/ParentComponent1'
+import ParentComponent1 from './Components/ContextAPI/UseContext/ParentComponent1'
 
+export const myContext = createContext()
 
 function App() {
 
   return (
     <>
-    {/* <ParentComponent name='chetan' age={27} />
-    <ParentComponent name='chetan' />
-    <ParentComponent age={30} /> */}
-
-    <ParentComponent1 name='chetan' age={27} />
-    <ParentComponent1 name='chetan' />
-    <ParentComponent1 age={30} />
+    <myContext.Provider value={{name:'chetan', age:27}}>
+    <ParentComponent1 />
+    </myContext.Provider>
+    
+    <myContext.Provider value={{name:'ashu'}}>
+    <ParentComponent1 />
+    </myContext.Provider>
     </>
   )
 }
