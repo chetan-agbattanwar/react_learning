@@ -1,12 +1,10 @@
-import { useContext } from 'react'
 import './App.css'
-import Parent from './Components/ContextAPI/UseContext/Example1/Parent'
+import AppPage from './Components/ContextAPI/UseContext/HC1/AppPage'
 
 function App() {
-  // const countContext = useContext()
   return (
     <>
-    <Parent/>
+    <AppPage/>
     </>
   )
 }
