@@ -1,11 +1,12 @@
+import { useContext } from 'react'
 import './App.css'
-import ParentComponent from './Components/ContextAPI/UseContext/Example2/ParentComponent'
+import Parent from './Components/ContextAPI/UseContext/Example1/Parent'
 
 function App() {
-
+  // const countContext = useContext()
   return (
     <>
-    <ParentComponent />
+    <Parent/>
     </>
   )
 }
