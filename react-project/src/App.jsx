@@ -1,10 +1,10 @@
 import './App.css'
-import AppPage from './Components/ContextAPI/UseContext/HC1/AppPage'
+import ReactIcons from './Components/React-Icons/ReactIcons'
 
 function App() {
   return (
     <>
-    <AppPage/>
+    <ReactIcons/>
     </>
   )
 }
