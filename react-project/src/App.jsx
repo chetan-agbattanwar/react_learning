@@ -1,10 +1,14 @@
 import './App.css'
-import ReactIcons from './Components/React-Icons/ReactIcons'
+import EventPropagations from './Components/EventHandling/EventPropagations'
+import EventProps from './Components/EventHandling/EventProps'
+import EvenHandling from './Components/EventHandling/EvenHandling'
 
 function App() {
   return (
     <>
-    <ReactIcons/>
+    {/* <EvenHandling /> */}
+    {/* <EventProps/> */}
+    <EventPropagations/>
     </>
   )
 }
