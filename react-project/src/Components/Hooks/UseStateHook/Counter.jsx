@@ -1,8 +1,14 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 
 function Counter() {
 
     const [count, setCount] = useState(0)
+
+    useEffect(()=>{
+      localStorage.clear()
+      localStorage.setItem("count",count)
+    },[count])
+
   return (
     <>
     <h1>Counter = {count}</h1>
