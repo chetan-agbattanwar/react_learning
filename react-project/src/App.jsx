@@ -1,11 +1,11 @@
 import './App.css'
-import ShortCircuit from './Components/short circuit/ShortCircuit';
+import HowNotToFetchAPI from './Components/API/HowNotToFetchAPI';
 
 function App() {
 
 return (
     <>
-    <ShortCircuit/>
+    <HowNotToFetchAPI/>
     </>
   )
 }
