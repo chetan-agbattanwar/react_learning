@@ -1,11 +1,11 @@
 import './App.css'
-import HowToFetchAPI from './Components/API/HowToFetchAPI';
+import DataFetchingUsingAsyncAwait from './Components/API/DataFetchingUsingAsyncAwait';
 
 function App() {
 
 return (
     <>
-    <HowToFetchAPI/>
+    < DataFetchingUsingAsyncAwait/>
     </>
   )
 }
