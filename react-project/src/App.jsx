@@ -1,11 +1,11 @@
 import './App.css'
-import HowNotToFetchAPI from './Components/API/HowNotToFetchAPI';
+import HowToFetchAPI from './Components/API/HowToFetchAPI';
 
 function App() {
 
 return (
     <>
-    <HowNotToFetchAPI/>
+    <HowToFetchAPI/>
     </>
   )
 }
